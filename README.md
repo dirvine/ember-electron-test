@@ -1,5 +1,7 @@
 # ember electron playground
 
+[![Build Status](https://travis-ci.org/dirvine/ember-electron-test.svg?branch=master)](https://travis-ci.org/dirvine/ember-electron-test)
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
