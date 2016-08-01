@@ -19,11 +19,15 @@ You will need the following things properly installed on your computer.
 * change into the new directory
 * `npm install`
 * `bower install`
+* `npm install ember-cli`
+* `ember install ember-electron`
 
 ## Running / Development
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
+Also
+* `ember electron` (will print out your ember inspector url)
 
 ### Code Generators
 
@@ -33,11 +37,14 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember test`
 * `ember test --server`
+* `ember electron:test`
+* `ember electron::test --server`
 
 ### Building
 
 * `ember build` (development)
 * `ember build --environment production` (production)
+8 `emberelectron:package--platform = XXX (linux, darwin, win)`
 
 ### Deploying
 
@@ -50,5 +57,6 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+= [ember-electron](https://github.com/felixrieseberg/ember-electron)
 
-# ember-electron-test
+
